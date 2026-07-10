@@ -1,0 +1,16 @@
+{
+  "name": "rolldown-sentry-treeshake",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Repro: destructuring a deferred import('@sentry/react') defeats Rolldown tree-shaking",
+  "scripts": {
+    "compare": "node compare.mjs"
+  },
+  "dependencies": {
+    "@sentry/react": "^10.64.0"
+  },
+  "devDependencies": {
+    "vite": "^8.1.4"
+  }
+}
